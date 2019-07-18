@@ -1,0 +1,134 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin-top: 0;
+  margin-left: 5;
+  margin-right:5;
+  margin-bottom:0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the header */
+.header {
+  background-color: #afeeee;
+  padding: 20px;
+  text-align: center;
+}
+
+.header1 {
+  background-color: lavender
+  padding: 5px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #afeeee;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: right;
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: black;
+  color: #afeeee;
+}
+
+.footer {
+  background-color: #afeeee;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer1 {
+  background-color: lavender;
+  padding: 20px;
+  text-align: center;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  <h1>Kanchi</h1>
+</div>
+
+<div class="header1">
+  <p> </p>
+</div>
+
+<link rel ="stylesheet" href="style.css">
+
+
+<div class ="topnav">
+  <a href="img.html">Home</a>
+  <a href="photography.html">My Photography</a>
+  <a href="mypicks.html">My Picks</a>
+  <a href="myactivities.html">My Activities</a>
+  <a href="aboutme.html">About Me</a>
+</div>
+
+
+
+
+
+
+
+
+<center>
+<h2>My Photos</h2>
+<h4>Click on a picture to see more!</h4>
+</center>
+
+
+
+
+
+
+
+
+<div class="footer1">
+  <p> </p>
+</div>
+
+
+<div class="footer">
+  <p> </p>
+</div>
+
+
+</body>
+</html>
