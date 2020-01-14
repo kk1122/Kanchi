@@ -1,7 +1,7 @@
 body {
     background-color: lavender;
 
-  font-family: "Comic Sans MS";
+  font-family: 'Comfortaa', cursive;
 
 }
 h2{
@@ -9,8 +9,4 @@ h2{
 }
 h1{
     font-family: 'Great Vibes', cursive;
-}
-p{
-    font-family: 'Comfortaa', cursive;
-    
 }
